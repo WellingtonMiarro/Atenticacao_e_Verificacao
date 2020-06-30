@@ -1,0 +1,27 @@
+{
+  "name": "Autenticacao_e_Verificacao",
+  "version": "1.0.0",
+  "description": "Atividade avaliativa: autenticação e verificação de acesso com JWT, hash e salt.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WellingtonMiarro/Autenticacao_e_Verificacao.git"
+  },
+  "keywords": [],
+  "author": "Wellington Miarro Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.13"
+  },
+  "bugs": {
+    "url": "https://github.com/WellingtonMiarro/Autenticacao_e_Verificacao/issues"
+  },
+  "homepage": "https://github.com/WellingtonMiarro/Autenticacao_e_Verificacao#readme"
+}
